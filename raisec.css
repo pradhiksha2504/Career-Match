@@ -1,0 +1,103 @@
+body{
+    /* text-align: center; */
+    background-color: rgba(205, 199, 199, 0.914);
+    /* background: url("Pg12_RIASEC.png") ; */
+    background: url("11688119640.png");
+    /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  opacity: 2.5;
+}
+#start{
+    margin-top: 5vh;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 4rem;
+    border-radius: 10px;
+    background:#0c184e84;
+    border-color: transparent;
+    justify-items: center;
+}
+#start:hover{
+    background: hsla(341, 11%, 50%, 0.518);
+    color:#0c184e84;
+}
+#resTitle{
+    text-align: center;
+    margin-top: 20vh;
+    padding: 20px;
+    color: whitesmoke;
+}
+.container{
+    background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.9;
+    width:50%;
+    height: 50%;
+    position: absolute;
+    left: 45%;
+    top:25%;
+    bottom: 25%;
+    right: 25%;
+    /* background: rgb(134, 80, 82); */
+    padding: 20px;  
+    border: 1px solid;
+    box-shadow: 0 0 8px 3px #5d0b0b84;
+    border-radius: 5%;
+}
+.title{
+    color: #06123dc2;
+    font-size: 5rem;
+}
+#nextBtn{
+    /* color: #1f0104c2; */
+    background-color: #0c184e84;;
+    border-color: transparent;
+}
+.question{
+    margin-top: 8vh;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #122c80c2;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+.option{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    width: 300px;
+    display:inline-block;
+    padding: 10px 0 10px 15px;
+    vertical-align: middle;
+    background: #122c80c2;
+    margin:10px 0 10px 10px;
+    border-radius: 5%;
+    cursor: pointer;
+    color: antiquewhite;
+
+}
+.option:hover{
+    background: hsla(219, 97%, 13%, 0.518);
+    color:whitesmoke;
+}
+#finish{
+    background-color:#122c80c2;
+    border-color: transparent;
+}
+#finish:hover{
+    background-color:#122c80c2;
+    border-color: transparent;
+
+}
+#buttonGroup button{
+    background: #122c80c2;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+}
